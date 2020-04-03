@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+}
+
+input {
+    text-decoration: none;
+}
+
+td {
+    padding: 0;
+}
+
+table {
+    padding: 0;
+    border-spacing: 2px;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+
+body {
+    background-color: #fff;
+    font-size: 20px;
+}
+
+
+
+.block {
+    width: 460px;
+    height: 270px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 8px 10px 0 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.string {
+    width: 75%;
+    height: 73px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0 2px 0 13px;
+
+    padding: 3px;
+    font-size: 20px;
+    text-align: right;
+}
+
+input {
+    outline:none;
+}
+
+input:disabled{
+    background-color: #fff;
+}
+
+.string:hover {
+    box-shadow: 0 0 1px 0 rgba(0,0,0,1);
+}
+
+.container {
+    display: table;
+    position: relative;
+    width: 100%;
+}
+
+.table-calc {
+    margin: 3px auto;
+}
+
+.numbers-button {
+    width: 80px;
+    border-radius: 4px;
+    height: 40px;
+    border: 1px solid #dfe6e9;
+    background-color: #fff;
+    
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.numbers-button:hover {
+    background-color: #dfe6e9;
+}
+
+.numbers-button:active {
+    border: 1px solid #b2bec3;
+}
+
+.math-symbol {
+    width: 80px;
+    border-radius: 4px;
+    height: 40px;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 35.5px;
+    vertical-align: middle;
+}
+
+.math-symbol sup {
+    line-height: 8px;
+    font-size: 15px;
+}
+
+.math-symbol:active {
+    border: 1px solid #636e72;
+}
+
+.math-symbol:hover {
+    background-color: #d5d5d5;
+}
+
+
+.equally-button {
+    width: 80px;
+    border-radius: 4px;
+    height: 40px;
+    border: 1px solid #dab221;
+    background-color: #dab221;
+    color: #fff;
+    font-size: 29px;
+    
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 38px;
+    vertical-align: middle;
+}
+
+
+.equally-button:hover {
+    background-color: #cba61f;
+}
+
+.clear-input {
+    width: 80px;
+    border-radius: 4px;
+    position: relative;
+    height: 40px;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    color: #000;
+    font-size: 29px;
+    
+    cursor: pointer;
+    margin-right: px;
+    text-align: center;
+    line-height: 38px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.clear-input:hover {
+    background-color: #d5d5d5;
+}
+
+.clear-input:active {
+    border: 1px solid #636e72;
+}
+
+.contForStr {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.dot-button {
+    width: 80px;
+    border-radius: 4px;
+    height: 40px;
+    border: 1px solid #dfe6e9;
+    background-color: #fff;
+    
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+/* .dot-button:hover {
+    background-color: #e6e6e6;
+    border: 1px solid #e6e6e6;
+} */
+
+.dot-button:hover {
+    background-color: #dfe6e9;
+}
+
+.dot-button:active {
+    border: 1px solid #b2bec3;
+}
