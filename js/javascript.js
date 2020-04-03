@@ -74,7 +74,6 @@ const numberPress = function(number) {
       string.value += number;
     }
   }
-  console.log('click ' + number);
 }
 
 
